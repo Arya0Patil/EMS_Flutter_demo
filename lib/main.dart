@@ -1,3 +1,6 @@
+import 'package:ems_demo/screens/homeScreen.dart';
+import 'package:ems_demo/screens/listViewPage.dart';
+
 import 'package:ems_demo/screens/splashScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const splashPage(),
+      home: const listPage(),
     );
   }
 }

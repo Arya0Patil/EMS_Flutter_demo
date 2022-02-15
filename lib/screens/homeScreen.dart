@@ -11,47 +11,45 @@ class homePage extends StatelessWidget {
         backgroundColor: kPrimaryColor,
         title: Text("EMS"),
       ),
-      body: SingleChildScrollView(
-        child: Container(
-          height: 100,
-          color: Colors.amberAccent,
-          child: Column(
-            children: [
-              Container(
-                color: Colors.cyanAccent,
-                child: Row(
-                  // ignore: prefer_const_literals_to_create_immutables
-                  children: [
-                    Container(
-                      color: Colors.red,
-                      child: Text("EMS"),
-                    ),
-                    Container(
-                      color: Colors.green,
-                      child: Text("EMS"),
-                    ),
-                  ],
-                ),
+      body: Container(
+        height: 100,
+        color: Colors.amberAccent,
+        child: Column(
+          children: [
+            Container(
+              color: Colors.cyanAccent,
+              child: Row(
+                // ignore: prefer_const_literals_to_create_immutables
+                children: [
+                  Container(
+                    color: Colors.red,
+                    child: Text("EMS"),
+                  ),
+                  Container(
+                    color: Colors.green,
+                    child: Text("EMS"),
+                  ),
+                ],
               ),
-              Container(
-                color: Colors.cyan,
-                child: Row(
-                  // ignore: prefer_const_literals_to_create_immutables
-                  children: [
-                    Container(
-                      alignment: Alignment(5, 0),
-                      color: Colors.red,
-                      child: Text("EMS"),
-                    ),
-                    Container(
-                      color: Colors.green,
-                      child: Text("EMS"),
-                    ),
-                  ],
-                ),
+            ),
+            Container(
+              color: Colors.cyan,
+              child: Row(
+                // ignore: prefer_const_literals_to_create_immutables
+                children: [
+                  Container(
+                    alignment: Alignment(5, 0),
+                    color: Colors.red,
+                    child: Text("EMS"),
+                  ),
+                  Container(
+                    color: Colors.green,
+                    child: Text("EMS"),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
